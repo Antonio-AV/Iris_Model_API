@@ -3,10 +3,7 @@
     "builds": [
         {
             "src": "api/api_modelo.py",
-            "use": "@vercel/python",
-            "config": {
-                "installCommand": "pip install -r requirements.txt && pip freeze"
-            }
+            "use": "@vercel/python"
         }
     ],
     "routes": [
