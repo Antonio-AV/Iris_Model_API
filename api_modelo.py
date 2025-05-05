@@ -1,4 +1,3 @@
-import os
 import logging
 import datetime
 import jwt
@@ -7,7 +6,7 @@ import numpy as np
 
 from functools import wraps
 from flask import Flask, request, jsonify
-from sqlalchemy import create_engine, Column, Integer, String, DateTime, Float
+from sqlalchemy import create_engine, Column, Integer, DateTime, Float
 from sqlalchemy.orm import declarative_base, sessionmaker
 
 # Authentication and JWT settings
