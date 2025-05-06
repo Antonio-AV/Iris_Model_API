@@ -1,7 +1,6 @@
-Flask
-SQLAlchemy==1.4.44
-PyJWT==2.8.0
+Flask==2.2.2
+PyJWT==2.6.0
 joblib==1.2.0
-numpy
-python-jose==3.3.0
-scikit-learn
+numpy==1.23.5
+SQLAlchemy==1.4.44
+
